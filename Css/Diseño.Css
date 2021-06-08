@@ -1,0 +1,123 @@
+header, footer{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.Altura{
+    height: 800px;
+}
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans',sans-serif;
+    background-color: rgb(121, 47, 47);
+  
+}
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    }
+    #container{
+        width: 1000px;
+        height: 550px;
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+        margin: 20px auto;	
+    }
+    #calculator{
+        width: 320px;
+        height: 520px;
+        background-color: #235e5e;
+        margin: 0 auto;
+        top: 20px;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #result{
+        height: 120px;
+    }
+    #history{
+        text-align: right;
+        height: 20px;
+        margin: 0 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        color: #a4abb1;
+    }
+    #output{
+        text-align: right;
+        height: 60px;
+        margin: 10px 20px;
+        font-size: 30px;
+    }
+    #keyboard{
+        height: 400px;
+    }
+    .operator, .number, .empty{
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+        float: left;
+        
+        border-width: 0;
+        font-weight:bolder;
+        font-size: 25px;
+    }
+    .number, .empty{
+        background-color: #797d80;
+        
+    }
+    .number, .operator{
+        cursor:pointer;
+        color: rgb(235, 247, 235);
+    }
+    .operator:active, .number:active{
+        font-size: 13px;
+    }
+    .operator:focus, .number:focus, .empty:focus{
+        outline: 0;
+    }
+    button:nth-child(4){
+        font-size: 20px;
+        background-color: #797d80;
+    }
+    button:nth-child(8){
+        font-size: 20px;
+        background-color: #797d80;
+    }
+    button:nth-child(12){
+        font-size: 20px;
+        background-color: #797d80;
+    }
+    button:nth-child(16){
+        font-size: 20px;
+        background-color: #797d80;
+    }
+    button:nth-child(20){
+        font-size: 20px;
+        background-color: #797d80;
+    }
+    button:nth-child(3){
+        font-size: 25px;
+        background-color:#797d80;
+    }
+    button:nth-child(2){
+        font-size: 25px;
+        background-color:rgb(190, 21, 21);
+    }
+    button:nth-child(1){
+        font-size: 25px;
+        background-color:rgb(190, 21, 21);
+    }
+   
+    
+    
+    
+
+    
